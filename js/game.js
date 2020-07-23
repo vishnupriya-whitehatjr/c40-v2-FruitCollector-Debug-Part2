@@ -57,14 +57,12 @@ class Game{
                        
                      if(index === player.index){
                          
-                         fill("black");
-                         textSize(25);
-                         text(allPlayers[plr].name ,x-25,y+25);
+                         // to display player name on the basket.
 
                          
                      }
                     
-                     
+                     //text to display player score.
                  
                  }
                 
@@ -101,7 +99,8 @@ class Game{
                  }
                  
                   if (player.index !== null) {
-                     //fill code here, to destroy the objects.
+                     //fill code here, to destroy the objects. (Use the one in the class project 39)
+                     // add the condition to calculate the score. and use update ti update the values in the database.
                   }
                 
 
